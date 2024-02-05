@@ -6,7 +6,7 @@
 
 The parameters of the empirical fragilities associated with different damage level are estimated jointly using Bayesian inference by employing a Markov Chain Monte Carlo Simulation (MCMC) scheme.
 
-## The main script, _main_script_Bayesian_fragility_model.m_, expects the following inputs:
+**The main script, _main_script_Bayesian_fragility_model.m_, expects the following inputs:**
 <br>**Filename:** The filename of a csv file containing two columns, one for the intensity measure and one for the damage state. 
 <br>**output_folder:** The folder that the outputs will be stored.
 <br>**excel_filename:** The name of the Excel file name for storing the fragility data. 
@@ -23,6 +23,4 @@ The parameters of the empirical fragilities associated with different damage lev
 <br>**do_modelClassSelection:** if =0, do not perform model class selection; if =1, do model class selection (please see the corresponding paper) 
 
 ## The outputs of the code are stored in the excel files defined by the name _excel_filename_. 
-
-The output format is described in the file [ReadMe file for fragility data] in
-https://github.com/eurotsunamirisk/etris_data_and_data_products/tree/main/etris_data_products/Fragility_Curves 
+**The output format is described in the file [ReadMe file for fragility data](https://github.com/soltanisgeo/readme/blob/main/README-FragilityData.md)**

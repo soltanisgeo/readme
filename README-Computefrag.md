@@ -2,9 +2,7 @@
 <br>
 A code for computing empirical fragility curves based on logistic regression
 <br>
-[![DOI](https://zenodo.org/badge/24227435.svg)](https://doi.org/10.5281/zenodo.5167276)
-<br>
-https://doi.org/10.5281/zenodo.5167276
+[zenodo](https://doi.org/10.5281/zenodo.5167276)
 <p align="center">
   <img src="https://github.com/soltanisgeo/readme/blob/main/damageScale-git.png" />
 </p>

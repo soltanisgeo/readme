@@ -13,7 +13,5 @@ This guide explains how to access the empirical fragility data for the specified
   <img src="https://github.com/soltanisgeo/readme/blob/main/Fragilitygit.png" />
 </p>
 
- 
-
-To rank different models based on the Bayesian Model Class selection, a csv file is provided with the name: Bayesian Model Class Selection_ Building Class_Tsunami Name. This file contains the posterior probability of each model M1, M2 and M3 described above.
+To rank different models based on the Bayesian Model Class selection, a csv file is provided with the name: **Bayesian Model Class Selection_ Building Class_Tsunami Name**. This file contains the posterior probability of each model M1, M2 and M3 described above.
 

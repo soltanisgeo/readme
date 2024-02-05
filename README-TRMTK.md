@@ -1,4 +1,4 @@
-##Tsunami Risk Modeller's Toolkit
+** Tsunami Risk Modeller's Toolkit **
 <br>
 <br>
 [European Tsunami Risk Service](https://eurotsunamirisk.org/)

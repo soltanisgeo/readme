@@ -8,6 +8,7 @@
 <p align="center">
   <img src="https://github.com/soltanisgeo/readme/blob/main/damageScale-git.png" />
 </p>
+*Graphical representation of damage thresholds, D, and damage states, DS.*
 
 <br>
 <br>

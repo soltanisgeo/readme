@@ -1,8 +1,8 @@
-Guide to accessing the empirical fragility calculation Code
+# Guide to accessing the empirical fragility calculation Code
 
-A code for computing empirical fragility curves based on generalized linear regression models. This code provides an ensemble of the fragility curves and their corresponding confidence bands for a set of mutually exclusive and collectively exhaustive (MECE) damage states. To use this code, you should cite the following manuscript:
-
-Jalayer, F., Ebrahimian, H., Trevlopoulos, K., and Bradley, B.: Empirical tsunami fragility modelling for hierarchical damage levels. EGUsphere, https://doi.org/10.5194/egusphere-2022-206, 2022.
+### A code for computing empirical fragility curves based on generalized linear regression models. 
+<br>This code provides an ensemble of the fragility curves and their corresponding confidence bands for a set of mutually exclusive and collectively exhaustive (MECE) damage states. To use this code, you should cite the following manuscript:
+Jalayer, F., Ebrahimian, H., Trevlopoulos, K., and Bradley, B. (2022). [Empirical tsunami fragility modelling for hierarchical damage levels](ttps://doi.org/10.5194/egusphere-2022-206)
 
 The parameters of the empirical fragilities associated with different damage level are estimated jointly using Bayesian inference by employing a Markov Chain Monte Carlo Simulation (MCMC) scheme.
 

@@ -9,6 +9,9 @@ This guide explains how to access the empirical fragility data for the specified
 <br> •	**logarithmic standard deviation:** the logarithmic standard deviation (dispersion) of the mean fragility curve
 <br> •	**epistemic uncertainty:** epistemic uncertainty due to the uncertainty in the fragility model parameters on the median fragility
 ![FragilityCurve](https://github.com/soltanisgeo/readme/blob/main/Fragilitygit.png)
+<p align="center">
+  <img src="https://github.com/soltanisgeo/readme/blob/main/Fragilitygit.png" />
+</p>
 
  
 

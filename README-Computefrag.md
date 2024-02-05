@@ -2,10 +2,8 @@
 <br>
 
 **A code for computing empirical fragility curves based on logistic regression**
-
 <br>
-
-**[zenodo](https://doi.org/10.5281/zenodo.5167276)**
+##[zenodo](https://doi.org/10.5281/zenodo.5167276)
 
 <p align="center">
   <img src="https://github.com/soltanisgeo/readme/blob/main/damageScale-git.png" />
@@ -38,7 +36,7 @@ The parameters of the empirical fragilities associated with different damage lev
 <br>**betaIMc:** The equivalent logarithmic standard deviation of the rfragility (i.e., half of the logarithmic distance between IM values corresponding to 84% and 16% probabilities, respectively). It is a vector with its length equal to the number of DS.
 <br>
 <br>
-# To execute the code, run the script computeFrag.py
+### To execute the code, run the script computeFrag.py
 <br>
 **Requirements:** MATLAB, numpy, pandas
 <br>

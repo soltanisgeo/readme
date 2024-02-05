@@ -1,4 +1,4 @@
-## Guide to accessing the empirical fragility data results
+## Guide to accessing the empirical fragility data results:
 This guide explains how to access the empirical fragility data for the specified Tsunami event in easy-to-use .csv and .xlsx formats. <br> i) The fragility data are stored in files, each named as follows: **Building Class_Tsunami** **Name_Mk.** The term Mk defines the fragility model, where *k=1* *(M1)* denotes the fragility model using **"logit"** link function, *k=2* *(M2)* defines the fragility model using **"probit"** link function, and *k=3* *(M3)* is for the fragility model using **"cloglog"** link function. 
 <br> For each damage level defined as D<sub>i</sub> (″i″ defines the number of damage level), seven columns of data are provided, and this module will be repeated based on the number of damage levels. Each module contains the following columns, which are also shown schematically in the following figure 
 <br>

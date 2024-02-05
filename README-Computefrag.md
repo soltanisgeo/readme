@@ -21,7 +21,7 @@ The parameters of the empirical fragilities associated with different damage lev
 <br>
 
 ## The **inputs** of the code are the following:
-<br>**inputFileName:** The filename of a csv file containing two columns, one for the intensity measure and one for the damage state. In this example, it is the file IM_and_DS.csv.
+<br>**InputFileName:** The filename of a csv file containing two columns, one for the intensity measure and one for the damage state. In this example, it is the file IM_and_DS.csv.
 <br>**NDS:** The number of the damage states.
 <br>**dIM, IM_max:** The step and the maximum absolute value for the IM vector.
 <br>**dvec_alpha0, dvec_alpha1:** The increments of the vectors of the two logistic regression parameters.
@@ -42,3 +42,25 @@ The parameters of the empirical fragilities associated with different damage lev
 **To execute the code, run the script computeFrag.py.**
 <br>
 **Requirements:** MATLAB, numpy, pandas
+
+## Docker
+You may also run the code as a standalone docker application. To do so, first pull the image from [docker hub]( https://hub.docker.com/r/eurotsunamirisk/bayesian-fragility-standalone-app). Create a folder for the input and the outputs of the code. For example, create the folder
+```sh
+C:\input_output\ (windows)
+```
+or
+```sh
+/home/user/input_output (linux)
+```
+Place in that folder the input file (e.g. the file _building_class_1.csv_ from the code’s repo) and execute the application using one of the following commands depending on your operating system:
+
+```sh
+docker run --rm -v C:\input_output:/tmp bayesian-fragility-standalone-app /tmp/building_class_1.csv 
+```
+```sh
+docker run --rm -v /home/user1/input_output:/tmp bayesian-fragility-standalone-app /tmp/building_class_1.csv
+```
+
+
+
+

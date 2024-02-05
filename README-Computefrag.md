@@ -1,6 +1,8 @@
 # ComputeFrag
 <br>
+
 **A code for computing empirical fragility curves based on logistic regression**
+
 <br>
 
 **[zenodo](https://doi.org/10.5281/zenodo.5167276)**
@@ -8,8 +10,10 @@
 <p align="center">
   <img src="https://github.com/soltanisgeo/readme/blob/main/damageScale-git.png" />
 </p>
+
 <br>
 <br>
+
 This code provides an ensemble of the fragility curves and their corresponding confidence bands for a set of mutually exclusive and collectively exhaustive (MECE) damage states (DS), where DS<sub>i</sub>: i=0,N<sub>DS</sub>. The fragility is defined as the probability of damage D exceeding the threshold D<sub>i</sub> for damage state DS<sub>i</sub> and is denoted as P(D>Di|IM).  The set of damage levels (D<sub>i</sub>, i=0,N<sub>DS</sub>) mark the thresholds of damage states (DS<sub>i</sub>). 
 <br>
 The parameters of the empirical fragilities associated with different damage level are estimated jointly using Bayesian inference by employing a Markov Chain Monte Carlo Simulation (MCMC) scheme. 

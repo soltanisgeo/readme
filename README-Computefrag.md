@@ -38,10 +38,12 @@ The parameters of the empirical fragilities associated with different damage lev
 <br>**betaIMc:** The equivalent logarithmic standard deviation of the rfragility (i.e., half of the logarithmic distance between IM values corresponding to 84% and 16% probabilities, respectively). It is a vector with its length equal to the number of DS.
 <br>
 <br>
-
-**To execute the code, run the script computeFrag.py.**
+# To execute the code, run the script computeFrag.py
 <br>
 **Requirements:** MATLAB, numpy, pandas
+<br>
+<br>
+<br>
 
 ## Docker
 You may also run the code as a standalone docker application. To do so, first pull the image from [docker hub]( https://hub.docker.com/r/eurotsunamirisk/bayesian-fragility-standalone-app). Create a folder for the input and the outputs of the code. For example, create the folder
